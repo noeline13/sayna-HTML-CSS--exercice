@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY UNICORN</title>
+   <!----------------------------- lien  html et css------------------------------------ -->
+    <link rel="stylesheet" href="styles.css">
+
+   <!-- --------------lien  html et font awesome------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   <!---------------------- lien html et google font -------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-------------------- ------this is a header---------------------------->
+
+    <header>
+      
+            <div id="label">
+                <label>MyUnicorn</label> 
+            </div>
+
+            <div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#trouver">nous trouver</a></li>
+                        <li><a href="#licornes">nos licornes</a></li>
+                        <li><a href="#principe">le principe</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+    </header>
+<!---------------- -----end oh the header------------------------------>
+
+
+
+<!--------------------------- start of section------------------------------->
+    <section>
+
+    <!--------------first div------------------->
+            <div id="titre">
+                <h1><i>Un jour, une licorne </i> </h1>
+            </div>
+
+    <!--------------second div----------------->
+
+            <div class="container">
+        <!--------first div in the container---------->
+                    <div>
+                      <h2 id="principe"><i class="fa fa-star-o" aria-hidden="true"></i> Le principe</h2>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante
+                        euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc
+                        malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam
+                        placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget
+                        semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo
+                        leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales
+                        sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget
+                        porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non
+                        sodales ipsum sollicitudin sed.
+                      </p>
+                      <p> Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci
+                        eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl
+                        at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa
+                        lacus. Aenean quis enim diam.
+                      </p>
+                    </div>
+        <!-- -------end of first div in the container-------->
+
+        <!--------- second div in the container---------------->
+                <div>
+                    <h2 id="licornes"> <i class="fa fa-star-o" aria-hidden="true"></i> Nos licornes</h2>
+
+                    <div class="photos">
+                        <Figure>
+                            <img src="image/unicorns/photo1.jpg">
+                            <figcaption>Lulu Confetty</figcaption>
+                        </Figure>
+                        <figure>
+                            <img src="image/unicorns/photo2.jpg">
+                            <figcaption>Lapillon Magi</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/unicorns/photo3.jpg">
+                            <figcaption> El Ninjacorn</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/unicorns/photo4.jpg">
+                            <figcaption>Sweety Candy</figcaption>
+                        </figure>
+                    </div>
+                </div>
+        <!-----------end of second div in container ------------>
+
+        <!----------- third div in the container---------------->
+                <h2 id="trouver"> <i class="fa fa-star-o" aria-hidden="true"></i> Nous trouver</h2>
+                <div id="newsletter">
+                    <!----ajout d'une map en utilison gogle map---->
+                       <div id="map">
+                             <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.5352920117743!2d47.524043415306856!3d-18.90768621221552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f07e00bfe681a5%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sen!2smg!4v1643889980398!5m2!1sen!2smg"
+                                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    <!-- -----ajout d'un addresse------->
+                    <div id="add">
+                        <h3 id="place">Notre élevage de licornes est situé au : </h3>
+                            <address>
+                                   Analakely Market <br>
+                                   Arabe Rahezavana, Antananarivo, Madagascar <br>
+                                   01.22.45.67.90
+                            </address>
+                     <!---------ajout d'une addresse email--------->
+                            <h3 id="soustitre"> Newsletter</h3>
+                        <form >
+                            <div class="email">
+                                <label for="my@unicorn.fr"> Abonnez-vous simplement à notre newsletter mensuelle !
+                                </label>
+                                <input type="text" name="email" placeholder="votre@email.fr">
+                            </div>
+                        </form>
+                        <button>
+                            <div class="valide-feedback">valider</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+     </section>
+        <!-- ------end of third div in the container-------->
+    <!-- ------end of second div-------->  
+ <!-- --------------------------------end of section---------------------------------->
+
+
+<!------------------------------- start of footer--------------------------------------->
+   
+     <footer>
+           <p> 2016@WebForce3</p>
+    </footer>
+<!------------------------------- end of footer------------------------------------------>
+   
+
+</body>
+
+</html>
